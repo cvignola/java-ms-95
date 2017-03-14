@@ -6,4 +6,4 @@ applications:
   instances: 1
   buildpack: liberty-for-java
   host: cpvjms95
-  domain: stage1.mybluemix.net
+  domain: mybluemix.net
