@@ -1,0 +1,9 @@
+applications:
+- name: java-ms-95
+  path: ./target/javams95.zip
+  memory: 512M
+  timeout: 180
+  instances: 1
+  buildpack: liberty-for-java
+  host: cpvjms95
+  domain: stage1.mybluemix.net
